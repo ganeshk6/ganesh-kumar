@@ -61,8 +61,8 @@
     width: 100%;
     bottom: 0%;
     position: absolute;
-    background-color: #69F0AE;
-    clip-path: inset(0 round 50% 0 );
+    /* background-color: #69F0AE; */
+    /* clip-path: inset(0 round 50% 0 ); */
 }
 
 .profile img{
