@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Internship</h1>
+
+    <ul>
+        <li *ngFor="let workexp of workExpList">
+            <h2>{{workexp.role}}</h2>
+            <h3>{{workexp.company}}</h3>
+            <h4>{{workexp.duration}}</h4>
+            <ul><li *ngFor="let dest of workexp.description">{{dest}}</li></ul>
+        </li>
+    </ul>
+</div>
